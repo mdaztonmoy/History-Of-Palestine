@@ -1,0 +1,465 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #c6bdb6;
+}
+nav{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #e0e1dd;
+}
+
+
+.h1{
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+ .video {
+
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+img {
+    height: 40px;
+}
+.img  #a {
+    border-right: 1px solid black ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+nav i{
+    font-size: 30px;
+}
+
+.nav-ber{
+    background-color: #fff7ea;
+    padding: 1% 7%;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    
+}
+.nav-ber .nav-img{
+    position: relative;
+    padding: 50px;
+    
+}
+ .nav-img img{
+    height: 500px;
+ }
+ .nav-text{
+    margin: 160px;
+ }
+ .nav-text h1{
+    font-size: 50px ;
+    font-weight: 600;
+    line-height: 1.5;
+ }
+ .nav-text p{
+    font-size: 30px ;
+    font-weight: 500;
+    line-height: 1.2;
+
+ }
+ footer{
+    padding: 2% 6%;
+ }
+ .f-img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
+
+ .f-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+ }
+
+ .f-text p{
+    line-height: 1.2;
+    font-size: 15px;
+    font-weight: 300;
+
+ }
+
+ .icon i{
+    padding: 10px 15px;
+    font-size: 20px;
+    
+ }
+
+ .cater-right{
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 22px 10px 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cater-col{
+    flex-basis: 5%;
+    text-align: center;
+    padding: 0 15px 20px;
+    transition: 0.5s;
+    border: transparent;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    
+
+   
+}
+
+
+.cater-col img{
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    
+}
+
+
+.cater-col img{
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    
+}
+.cater-col a{
+    padding: 9px 0px 18px;
+    text-decoration: none;
+}
+
+.cater-col a h4{
+    
+    color: black;
+    font-size: 20px ;
+    margin: 1px 0px;
+    line-height: 1.3;
+}
+
+.sec-bar{
+    align-self: center;
+    text-align: center;
+}
+
+.sec-bar h4{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.root-text{
+    margin-top: 40px;
+    padding: 1% 10%;
+}
+
+.root-text .root1{
+    padding: 20px;
+    margin-left: 50px ;
+    margin-right: 50px;
+
+}
+
+.root-text .root1 h1{
+    font-size:  30px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.root-text .root1 h1 .fa-solid{
+    font-size:  15px;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.root-text .root1 p{
+    font-size:  15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+
+.root-text .root1 p i{
+    font-size:  15px;
+
+    margin-right: 20px;
+   
+}
+
+.war-text{
+    margin-top: 40px;
+    padding: 1% 10%;
+}
+
+.war-text .war2{
+    padding: 20px;
+    margin-left: 50px ;
+    margin-right: 50px;
+
+}
+.war-text .war2 .war-h{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.war-text .war2  h1{
+    font-size: 30px;
+}
+
+
+
+
+
+.war-text .war2  p{
+    font-size:  15px;
+    margin-top: 10px;
+}
+
+
+
+.war-text .war2 p  h3{
+    font-size:  15px;
+}
+.poem1 h1{
+display: flex;
+justify-content: center;
+}
+.poem1 h4{
+    display: flex;
+    justify-content: center;
+    }
+    .poem1 p{
+        display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+        }
+        .poem2 h1{
+            display: flex;
+            justify-content: center;
+            }
+            .poem2 h4{
+                display: flex;
+                justify-content: center;
+                }
+                .poem2 p{
+                    display: flex;
+                justify-content: center;
+                text-align: center;
+                font-style: italic;
+                    }
+                    .poem3 h1{
+                        display: flex;
+                        justify-content: center;
+                        }
+                        .poem3 h4{
+                            display: flex;
+                            justify-content: center;
+                            }
+                            .poem3 p{
+                                display: flex;
+                            justify-content: center;
+                            text-align: center;
+                            font-style: italic;
+                                }
+                                .poem4 h1{
+                                    display: flex;
+                                    justify-content: center;
+                                    }
+                                    .poem4 h4{
+                                        display: flex;
+                                        justify-content: center;
+                                        }
+                                        .poem4 p{
+                                            display: flex;
+                                        justify-content: center;
+                                        text-align: center;
+                                        font-style: italic;
+                                            }
+                                            .poem5 h1{
+                                                display: flex;
+                                                justify-content: center;
+                                                text-align: center;
+                                                }
+                                                .poem5 h4{
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    }
+                                                    .poem5 p{
+                                                        display: flex;
+                                                    justify-content: center;
+                                                    text-align: center;
+                                                    font-style: italic;
+                                                    gap: 60px;
+                                                    margin-left: 60px;
+                                                    margin-right: 60px;
+                                                        }
+
+                                                        .poem5{
+                                                            align-items: center;
+                                                            padding: 0% 9%;
+                                                           
+                                                        }
+                                                        .poem-t{
+                                                            display: flex;
+                                                        justify-content: space-between;
+                                                        text-align: center;
+                                                        font-style: italic;
+                                                            }
+
+                                                        .poem6 h1{
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            }
+                                                            .poem6 h4{
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                }
+                                                                .poem6 p{
+                                                                    display: flex;
+                                                                justify-content: center;
+                                                                text-align: center;
+                                                                font-style: italic;
+                                                                    }
+                                                                    .poem7 h1{
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        }
+                                                                        .poem7 h4{
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            }
+                                                                            .poem7 p{
+                                                                                display: flex;
+                                                    justify-content: center;
+                                                    text-align: center;
+                                                    font-style: italic;
+
+                                                    margin-left: 60px;
+                                                    margin-right: 60px;
+                                                                                }
+                                                                                .poem7{
+                                                                                    align-items: center;
+                                                                                    padding: 0% 9%;
+                                                                                   
+                                                                                }
+.poem-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 18%;
+}              
+
+.poem-text img{
+   height: 600px; 
+   margin-top: 50px;
+   
+}
+.poem1{
+    margin-right: 40px;
+}
+
+
+
+.zz{
+    margin-top: 40px;
+    padding: 1% 10%;
+}
+
+.zz .zz1{
+    padding: 20px;
+    margin-left: 50px ;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+.zz .zz1 h1{
+    font-size:  30px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.zz .zz1 p{
+    font-size:  15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.map{
+    padding: 2% 10%;
+    background-color: white;
+    align-items: center;
+}
+
+.map img{
+    height: 800px;
+    align-items: center;
+    margin-left: 150px;
+
+
+
+    
+}
+
+
